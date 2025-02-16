@@ -19,11 +19,11 @@
 ![MainWindowLightMode](Documents/MainWindowLightMode.png)
 ![MainWindowDarkMode](Documents/MainWindowDarkMode.png)
 
-NanaZip is an open source file archiver intended for the modern Windows 
+NanaZip is an open source file archiver intended for the modern Windows
 experience, forked from the source code of well-known open source file archiver
 7-Zip.
 
-**All kinds of contributions will be appreciated. All suggestions, pull 
+**All kinds of contributions will be appreciated. All suggestions, pull
 requests, and issues are welcome.**
 
 If you want to sponsor the development of NanaZip, please read the document of
