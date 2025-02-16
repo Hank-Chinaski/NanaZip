@@ -241,31 +241,31 @@ the following command in the PowerShell which is run as administrator.
 
 ## Known issues
 
-- If you can't find NanaZip in the context menu, please restart all File 
+- If you can't find NanaZip in the context menu, please restart all File
   Explorer processes via Task Manager.
 - Due to the design of MSIX, drives' context menu in Explorer only show in
   Windows 11(22H2)+.
-- Due to the issues in Desktop Bridge file system virtualization, you are 
+- Due to the issues in Desktop Bridge file system virtualization, you are
   unable to use NanaZip in the Safe Mode of Windows.
-- Due to the policy from Microsoft Store, NanaZip is unable to disable Desktop 
-  Bridge file system virtualization, so the file operations in 
-  `%UserProfile%/AppData` will be redirected in Windows 10, and file operations
-  in directories other than `Local`, `LocalLow` and `Roaming` in 
+- Due to the policy from Microsoft Store, NanaZip is unable to disable Desktop
+  Bridge file system virtualization, so the file operations in
+  `%UserProfile%/AppData` will be redirected in Windows 10, and file operation
+  in directories other than `Local`, `LocalLow` and `Roaming` in
   `%UserProfile%/AppData` will still be redirected in Windows 11.
-- Due to the Microsoft Store limitations, NanaZip 1.2 and later won't support 
-  languages not mentioned in 
+- Due to the Microsoft Store limitations, NanaZip 1.2 and later won't support
+  languages not mentioned in
   https://docs.microsoft.com/en-us/windows/uwp/publish/supported-languages.
 - If you turn off the Windows Firewall, NanaZip may fail to install.
   (https://github.com/M2Team/NanaZip/issues/204)
   (https://github.com/microsoft/terminal/issues/12269)
-- Due to the System Settings limitations, starting with Windows 11+ 
-  (Build 22000.1817+ & 22621.1555+), you can launch directly to the Settings 
+- Due to the System Settings limitations, starting with Windows 11+
+  (Build 22000.1817+ & 22621.1555+), you can launch directly to the Settings
   page for file association for NanaZip.
   (https://learn.microsoft.com/en-us/windows/uwp/launch-resume/launch-default-apps-settings)
 - Due to the Microsoft Store Licensing API implementation, you will find NanaZip
   will try to access the Internet beginning with NanaZip 3.0 because NanaZip
   needs to use that to check the Sponsor Edition addon licensing status.
-- For optimizing the user experience, NanaZip will only check the Sponsor 
+- For optimizing the user experience, NanaZip will only check the Sponsor
   Edition addon licensing status at the first time your launch NanaZip File
   Manager. You can click the sponsor button if you want to refresh the status
   after you have purchased or redeemed the Sponsor Edition addon.
